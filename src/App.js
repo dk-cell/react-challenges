@@ -1,7 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
+import CountDown from "./components/CountDown";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/countdown-timer" element={<CountDown />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/Home.css";
 import { projects } from "../data/Project";
+import { Link } from "react-router-dom";
+import countdownimg from "../media/countdown.png"
 const Home = () => {
   return (
     <div className="homepage-container">
@@ -16,15 +18,15 @@ const Home = () => {
         {projects.map((project) => (
           <div key={project.id} className="project-card">
             <img
-              src={project.image}
+              src={countdownimg}
               alt={project.title}
               className="project-image"
             />
             <h2>{project.title}</h2>
             <p>{project.description}</p>
-            <a href={project.url} className="view-project">
+            <Link to={project.url} className="view-project">
               View Project
-            </a>
+            </Link>
           </div>
         ))}
       </div>
