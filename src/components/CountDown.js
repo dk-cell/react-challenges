@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import "../css/CountDown.css";
 import TakeInput from "./TakeInput";
 import ManageButton from "./ManageButton";
+import { useNavigate } from "react-router-dom";
 
 const CountDown = () => {
+  const navigate = useNavigate();
   const [hour, setHour] = useState(0);
   const [minute, setMinute] = useState(0);
   const [second, setSecond] = useState(0);
@@ -25,7 +27,7 @@ const CountDown = () => {
     clearInterval(countDownTimerId);
   };
   const handleReset = () => {
-    setIsStart(false)
+    setIsStart(false);
     reset();
   };
   const handleChange = (e) => {
@@ -95,6 +97,11 @@ const CountDown = () => {
               handleReset={handleReset}
               handleResume={handleResume}
             />
+          </div>
+          <div className="">
+            <button className="home-btn" onClick={() => navigate("/")}>
+              Back to Home
+            </button>
           </div>
         </div>
       </div>
