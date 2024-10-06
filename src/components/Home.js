@@ -18,7 +18,7 @@ const Home = () => {
         {projects.map((project) => (
           <div key={project.id} className="project-card">
             <img
-              src={countdownimg}
+              src={project.image}
               alt={project.title}
               className="project-image"
             />
