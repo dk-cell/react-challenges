@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import "../css/CountDown.css";
 import TakeInput from "./TakeInput";
 import ManageButton from "./ManageButton";
 import { useNavigate } from "react-router-dom";
-
+import "../css/CountDown.css";
+import "../css/common.css";
 const CountDown = () => {
   const navigate = useNavigate();
   const [hour, setHour] = useState(0);
@@ -79,7 +79,7 @@ const CountDown = () => {
     <>
       <div className="main">
         <div className="container">
-          <div className="title">CountDown Timer</div>
+          <p className="title">CountDown Timer</p>
           {!isStart && <TakeInput handleChange={handleChange} />}
           {isStart && (
             <div className="input">
