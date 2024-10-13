@@ -1,5 +1,6 @@
-import countdownimg from "../media/countdown.png"
-import faq from "../media/faq.png"
+import countdownimg from "../media/countdown.png";
+import faq from "../media/faq.png";
+import modal from "../media/modal.png";
 export const projects = [
   {
     id: 1,
@@ -15,5 +16,12 @@ export const projects = [
     description: "Find your answers here.",
     url: "/faq",
     image: faq,
+  },
+  {
+    id: 3,
+    title: "Custom Modal",
+    description: "Find your answers here.",
+    url: "/custom-modal",
+    image: modal,
   },
 ];

@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(lightgray, white);
+  z-index: 1;
+  position: fixed;
+  display: grid;
+  place-items: center;
+  top: 0;
+  left: 0;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+}
+
+.btn-close{
+    display: flex;   
+    justify-content: end;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+.make-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opened{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
