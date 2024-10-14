@@ -25,8 +25,8 @@ const HandleModal = () => {
       ) : (
         <div className="opened">
           <p>You have successfully opened modal!</p>
-          <button className="btn" onClick={() => navigate("/")}>
-            back
+          <button className="home-btn" onClick={() => navigate("/")}>
+            Back to Home
           </button>
         </div>
       )}
