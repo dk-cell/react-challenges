@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import CountDown from "./components/CountDown";
 import FaqMain from "./components/Faq/FaqMain";
 import HandleModal from "./components/custom-modal/HandleModal";
+import Form from "./components/form/Form"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/countdown-timer" element={<CountDown />} />
           <Route path="/faq" element={<FaqMain />} />
           <Route path="/custom-modal" element={<HandleModal />} />
+          <Route path="/form" element={<Form />} />
         </Routes>
       </BrowserRouter>
     </div>

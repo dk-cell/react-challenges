@@ -1,6 +1,7 @@
 import countdownimg from "../media/countdown.png";
 import faq from "../media/faq.png";
 import modal from "../media/modal.png";
+import form from "../media/form.png";
 export const projects = [
   {
     id: 1,
@@ -20,8 +21,15 @@ export const projects = [
   {
     id: 3,
     title: "Custom Modal",
-    description: "Find your answers here.",
+    description: "A reusable custom modal overlay component for web applications.",
     url: "/custom-modal",
     image: modal,
+  },
+  {
+    id: 4,
+    title: "Form Validation",
+    description: "A reusable component for form validation.",
+    url: "/form",
+    image: form,
   },
 ];

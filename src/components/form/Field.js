@@ -1,0 +1,38 @@
+export const defaultFormData = {
+  name: {
+    id: "name",
+    label: "Name",
+    placeholder: "Enter you Name",
+    type: "text",
+    value: "",
+    isError: false,
+    errorMsg: "Please enter your name!",
+  },
+  email: {
+    id: "email",
+    label: "Email",
+    placeholder: "Enter Email",
+    type: "text",
+    value: "",
+    isError: false,
+    errorMsg: "Please enter your Email!",
+  },
+  password: {
+    id: "password",
+    label: "Password",
+    placeholder: "Enter Password",
+    type: "password",
+    value: "",
+    isError: false,
+    errorMsg: "Please enter Password!",
+  },
+  confirmPassword: {
+    id: "confirmPassword",
+    label: "Confirm Password",
+    placeholder: "Confirm Password",
+    type: "password",
+    value: "",
+    isError: false,
+    errorMsg: "Please confirm password!",
+  },
+};

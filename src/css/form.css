@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+.form-container-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  margin: .5rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+span {
+  /* margin: 1rem; */
+  color: red;
+}
+
+.error-border {
+  border: 2px solid red;
+}
