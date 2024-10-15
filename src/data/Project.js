@@ -2,6 +2,7 @@ import countdownimg from "../media/countdown.png";
 import faq from "../media/faq.png";
 import modal from "../media/modal.png";
 import form from "../media/form.png";
+import otp from "../media/otp.png";
 export const projects = [
   {
     id: 1,
@@ -21,7 +22,8 @@ export const projects = [
   {
     id: 3,
     title: "Custom Modal",
-    description: "A reusable custom modal overlay component for web applications.",
+    description:
+      "A reusable custom modal overlay component for web applications.",
     url: "/custom-modal",
     image: modal,
   },
@@ -31,5 +33,12 @@ export const projects = [
     description: "A reusable component for form validation.",
     url: "/form",
     image: form,
+  },
+  {
+    id: 5,
+    title: "Otp Input Box",
+    description: "A reusable component for Otp input Box.",
+    url: "/otp-input",
+    image: otp,
   },
 ];
