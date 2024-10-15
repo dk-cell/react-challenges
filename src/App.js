@@ -4,7 +4,8 @@ import Home from "./components/Home";
 import CountDown from "./components/CountDown";
 import FaqMain from "./components/Faq/FaqMain";
 import HandleModal from "./components/custom-modal/HandleModal";
-import Form from "./components/form/Form"
+import Form from "./components/form/Form";
+import Otp from "./components/otp/Otp";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/faq" element={<FaqMain />} />
           <Route path="/custom-modal" element={<HandleModal />} />
           <Route path="/form" element={<Form />} />
+          <Route path="/otp-input" element={<Otp />} />
         </Routes>
       </BrowserRouter>
     </div>

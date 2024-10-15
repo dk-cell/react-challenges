@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.otp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.input-otp{
+    height: 2rem;
+    width: 2rem;
+}
+
+.input-box{
+    margin-block: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    background-color: #7d7dd5;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+.error{
+    border: 1px solid red;
+}  
+
+/* .home-btn{
+    background-color: red;
+} */
