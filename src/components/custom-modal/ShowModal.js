@@ -1,4 +1,4 @@
-import "../../css/modal.css";
+import "./modal.css";
 const ShowModal = ({ handleClose,handleOpenModal }) => {
   const handleOutSideClick = (e) => {
     console.log(e.target.className);

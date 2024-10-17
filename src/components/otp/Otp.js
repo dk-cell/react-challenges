@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-import "../../css/otp.css";
+import "./otp.css";
 import "../../css/common.css";
 import { useNavigate } from "react-router-dom";
 const Otp = () => {

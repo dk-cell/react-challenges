@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ShowModal from "./ShowModal";
 import { useNavigate } from "react-router-dom";
-import "../../css/modal.css";
+import "./modal.css";
 
 const HandleModal = () => {
   const navigate = useNavigate();

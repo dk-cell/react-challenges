@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../../css/common.css";
-import "../../css/Faq.css";
+import "./Faq.css";
 const HandleFaqItem = ({ faqitem }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -17,7 +17,7 @@ const HandleFaqItem = ({ faqitem }) => {
             className={`arrow-btn ${isOpen ? "arrow-btn-rotate" : ""}`}
             onClick={() => setIsOpen(!isOpen)}
           >
-            >
+            
           </button>
           <p onClick={() => setIsOpen(!isOpen)}>{faqitem.question}</p>
         </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { defaultFormData } from "./Field";
-import "../../css/form.css";
+import "./form.css";
 import { useNavigate } from "react-router-dom";
 
 const Form = () => {
