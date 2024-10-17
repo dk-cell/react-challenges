@@ -1,7 +1,7 @@
 import { FaqQuestions } from "../../data/Faq/Faq";
-import "../../css/CountDown.css";
+// import "../../css/CountDown.css";
 import "../../css/common.css";
-import "../../css/Faq.css";
+import "./Faq.css";
 import { useNavigate } from "react-router-dom";
 import HandleFaqItem from "./HandleFaqItem";
 const FaqMain = () => {

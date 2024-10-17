@@ -3,6 +3,7 @@ import faq from "../media/faq.png";
 import modal from "../media/modal.png";
 import form from "../media/form.png";
 import otp from "../media/otp.png";
+import multistepform from "../media/multistepform.png"
 export const projects = [
   {
     id: 1,
@@ -40,5 +41,11 @@ export const projects = [
     description: "A reusable component for Otp input Box.",
     url: "/otp-input",
     image: otp,
+  },  {
+    id: 5,
+    title: "Multi Step Form",
+    description: "A reusable component for Multi Step Form.",
+    url: "/multi-step-form",
+    image: multistepform,
   },
 ];

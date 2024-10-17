@@ -1,4 +1,4 @@
-import "../css/CountDown.css";
+import "./CountDown.css";
 const TakeInput = ({handleChange}) => {
   return (
     <>

@@ -1,0 +1,33 @@
+.parent-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.input {
+    margin-block: 1rem;
+    margin-inline: 0;
+    border-radius: 0.2rem;
+  }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.back{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+   
+}
+
+.next{
+    font-weight: bold;
+    font-size: 1.3rem;
+}

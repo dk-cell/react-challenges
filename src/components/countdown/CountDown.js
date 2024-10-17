@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import TakeInput from "./TakeInput";
 import ManageButton from "./ManageButton";
 import { useNavigate } from "react-router-dom";
-import "../css/CountDown.css";
-import "../css/common.css";
+import "./CountDown.css";
+import "../../css/common.css";
 const CountDown = () => {
   const navigate = useNavigate();
   const [hour, setHour] = useState(0);
