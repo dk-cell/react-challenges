@@ -3,7 +3,8 @@ import faq from "../media/faq.png";
 import modal from "../media/modal.png";
 import form from "../media/form.png";
 import otp from "../media/otp.png";
-import multistepform from "../media/multistepform.png"
+import multistepform from "../media/multistepform.png";
+import progress from "../media/progress.png"
 export const projects = [
   {
     id: 1,
@@ -16,6 +17,7 @@ export const projects = [
   {
     id: 2,
     title: "Frequently Asked Questions",
+    
     description: "Find your answers here.",
     url: "/faq",
     image: faq,
@@ -41,11 +43,19 @@ export const projects = [
     description: "A reusable component for Otp input Box.",
     url: "/otp-input",
     image: otp,
-  },  {
-    id: 5,
+  },
+  {
+    id: 6,
     title: "Multi Step Form",
     description: "A reusable component for Multi Step Form.",
     url: "/multi-step-form",
     image: multistepform,
+  },
+  {
+    id: 7,
+    title: "Progress Bar",
+    description: "A reusable component for Progress Bar.",
+    url: "/progress-bar",
+    image: progress,
   },
 ];
