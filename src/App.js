@@ -8,6 +8,7 @@ import Form from "./components/form/Form";
 import Otp from "./components/otp/Otp";
 import MultiStempForm from "./components/multistep-form/MultiStepForm";
 import ProgressBarMain from "./components/progress-bar/ProgressBarMain";
+import ShoppingList from "./components/shopping-list/ShoppingList";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/otp-input" element={<Otp />} />
           <Route path="/multi-step-form" element={<MultiStempForm />} />
           <Route path="/progress-bar" element={<ProgressBarMain />} />
+          <Route path="/shopping-list" element={<ShoppingList />} />
 
 
         </Routes>
