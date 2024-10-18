@@ -5,6 +5,7 @@ import form from "../media/form.png";
 import otp from "../media/otp.png";
 import multistepform from "../media/multistepform.png";
 import progress from "../media/progress.png"
+import shoppinglist from "../media/shoppinglist.png"
 export const projects = [
   {
     id: 1,
@@ -17,7 +18,6 @@ export const projects = [
   {
     id: 2,
     title: "Frequently Asked Questions",
-    
     description: "Find your answers here.",
     url: "/faq",
     image: faq,
@@ -57,5 +57,12 @@ export const projects = [
     description: "A reusable component for Progress Bar.",
     url: "/progress-bar",
     image: progress,
+  },
+  {
+    id: 8,
+    title: "Shopping List Auto Suggestion",
+    description: "A reusable component for Shopping List Auto Suggestion content fetch from api.",
+    url: "/shopping-list",
+    image: shoppinglist,
   },
 ];
